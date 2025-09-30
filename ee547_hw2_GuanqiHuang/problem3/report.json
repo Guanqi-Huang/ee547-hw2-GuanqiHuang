@@ -1,0 +1,55 @@
+{
+  "account_info": {
+    "account_id": "116857297132",
+    "user_arn": "arn:aws:iam::116857297132:user/ee547_hw2",
+    "scan_timestamp": "2025-09-30T04:35:11Z",
+    "region": "us-east-1"
+  },
+  "resources": {
+    "iam_users": [
+      {
+        "username": "ee547_hw2",
+        "user_id": "AIDARWNJ43DWMZJUZHCTY",
+        "arn": "arn:aws:iam::116857297132:user/ee547_hw2",
+        "create_date": "2025-09-30T04:19:16Z",
+        "last_activity": null,
+        "attached_policies": [
+          {
+            "policy_name": "ReadOnlyAccess",
+            "policy_arn": "arn:aws:iam::aws:policy/ReadOnlyAccess"
+          }
+        ]
+      }
+    ],
+    "ec2_instances": [],
+    "s3_buckets": [],
+    "security_groups": [
+      {
+        "group_id": "sg-05121391fd47a314c",
+        "group_name": "default",
+        "description": "default VPC security group",
+        "vpc_id": "vpc-08cde98845dcf910e",
+        "inbound_rules": [
+          {
+            "protocol": "all",
+            "port_range": "all",
+            "source": "-"
+          }
+        ],
+        "outbound_rules": [
+          {
+            "protocol": "all",
+            "port_range": "all",
+            "source": "0.0.0.0/0"
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "total_users": 1,
+    "running_instances": 0,
+    "total_buckets": 0,
+    "security_groups": 1
+  }
+}
