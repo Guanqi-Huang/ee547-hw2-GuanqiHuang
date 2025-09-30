@@ -5,7 +5,9 @@ Full name : Guanqi Huang
 USC email address : guanqihu@usc.edu
 
 Embedding architecture: Use the architecture provided in the homework guide.
+
 (128-64-128)
+
 Input layer: 5,000×128+128 bias = 640,128 params
 
 Encoder: 128×64+64 bias = 8,256 params
